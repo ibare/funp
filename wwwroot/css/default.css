@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #5d5f5e;
+  text-align: center;
+}
+
+#talkbox {
+  position: fixed;
+  z-index: 1;
+  width: 250px;
+  height: 100px;
+  margin-top: 60px;
+  margin-left: 60px;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 20px;
+  font-size: 15px;
+  text-align: center;
+  line-height: 100px;
+  display: none;
+}
+
+#mainchar {
+  position: absolute;
+  width: 200px;
+  height: 250px;
+  margin-top: 160px;
+  margin-left: 85px;
+  background-image: url(/imgs/char-sp.gif);
+  background-position: 0 0;
+}
+
+#mainchar.normal {
+  background-image: url(/imgs/char-sp.gif);
+  background-position: 0 0;
+}
+
+#mainchar.exclamation {
+  background-image: url(/imgs/char-sp.gif);
+  background-position: 200px 0;
+}
+
+#mainchar.boring {
+  background-image: url(/imgs/char-sp.gif);
+  background-position: 400px 0;
+}
+
+#mainchar.cutup {
+  background-image: url(/imgs/char-sp.gif);
+  background-position: 600px 0;
+}
